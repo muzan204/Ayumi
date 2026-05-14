@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dark Space Gothic</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🌌 SPACE -->
+  <div class="stars" id="stars"></div>
+
+  <!-- 🩸 BLOOD EFFECT -->
+  <div class="blood" id="blood"></div>
+
+  <!-- 🌑 BACKGROUND GLOW -->
+  <div class="shadow"></div>
+
+  <div class="container">
+
+    <div class="card">
+
+      <h1>DARK VOID</h1>
+
+      <p class="subtitle">Preto • Sangue • Space • Rock • Medo</p>
+
+      <div class="line"></div>
+
+      <p class="quote">
+        “O vazio não está no espaço... ele está olhando de volta pra você.”
+      </p>
+
+      <div class="rock">
+        <button class="btn" onclick="playSound()">🔥 ROCK MODE</button>
+        <button class="btn" onclick="showMessage()">☠ DESPERTAR</button>
+      </div>
+
+      <div class="fear" id="message">
+        Algo está observando...
+      </div>
+
+      <div class="foot">
+        GOTHIC SPACE PROJECT © 2026
+      </div>
+
+    </div>
+  </div>
+
+  <audio id="rockAudio">
+    <source src="https://www.soundjay.com/buttons/sounds/button-10.mp3">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
